@@ -16,6 +16,7 @@
 		AB94A4D02873814A00521CA5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4CF2873814A00521CA5 /* CardView.swift */; };
 		AB94A4D2287382AD00521CA5 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4D1287382AD00521CA5 /* TrailingIconLabelStyle.swift */; };
 		AB94A4D52873853600521CA5 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4D42873853600521CA5 /* ScrumsView.swift */; };
+		AB94A4D72873D95600521CA5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4D62873D95600521CA5 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AB94A4CF2873814A00521CA5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AB94A4D1287382AD00521CA5 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		AB94A4D42873853600521CA5 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		AB94A4D62873D95600521CA5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,8 @@
 		AB94A4BB28737A8E00521CA5 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				AB94A4CA2873801300521CA5 /* Models */,
 				AB94A4BC28737A8E00521CA5 /* ScrumdingerApp.swift */,
+				AB94A4CA2873801300521CA5 /* Models */,
 				AB94A4D32873851B00521CA5 /* Views */,
 				AB94A4C028737A9100521CA5 /* Assets.xcassets */,
 				AB94A4C228737A9100521CA5 /* Preview Content */,
@@ -94,6 +96,7 @@
 				AB94A4D1287382AD00521CA5 /* TrailingIconLabelStyle.swift */,
 				AB94A4BE28737A8E00521CA5 /* MeetingView.swift */,
 				AB94A4D42873853600521CA5 /* ScrumsView.swift */,
+				AB94A4D62873D95600521CA5 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB94A4CE287380AD00521CA5 /* DailyScrum.swift in Sources */,
+				AB94A4D72873D95600521CA5 /* DetailView.swift in Sources */,
 				AB94A4D2287382AD00521CA5 /* TrailingIconLabelStyle.swift in Sources */,
 				AB94A4BF28737A8E00521CA5 /* MeetingView.swift in Sources */,
 				AB94A4D52873853600521CA5 /* ScrumsView.swift in Sources */,
