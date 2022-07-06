@@ -120,8 +120,8 @@
 				AB94A4D62873D95600521CA5 /* DetailView.swift */,
 				AB94A4D82875038000521CA5 /* DetailEditView.swift */,
 				AB94A4DC28750C3F00521CA5 /* ThemePicker.swift */,
-				AB94A4E928764CCB00521CA5 /* Resources */,
 				AB94A4DA28750B8100521CA5 /* ThemeView.swift */,
+				AB94A4E928764CCB00521CA5 /* Resources */,
 			);
 			path = Views;
 			sourceTree = "<group>";
