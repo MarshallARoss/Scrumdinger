@@ -20,6 +20,10 @@
 		AB94A4D92875038100521CA5 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4D82875038000521CA5 /* DetailEditView.swift */; };
 		AB94A4DB28750B8100521CA5 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4DA28750B8100521CA5 /* ThemeView.swift */; };
 		AB94A4DD28750C3F00521CA5 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4DC28750C3F00521CA5 /* ThemePicker.swift */; };
+		AB94A4DF2876433F00521CA5 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4DE2876433F00521CA5 /* MeetingHeaderView.swift */; };
+		AB94A4E12876452100521CA5 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E02876452100521CA5 /* ScrumProgressViewStyle.swift */; };
+		AB94A4E3287645C900521CA5 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E2287645C900521CA5 /* ScrumTimer.swift */; };
+		AB94A4E5287647B200521CA5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		AB94A4D82875038000521CA5 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		AB94A4DA28750B8100521CA5 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		AB94A4DC28750C3F00521CA5 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		AB94A4DE2876433F00521CA5 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		AB94A4E02876452100521CA5 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		AB94A4E2287645C900521CA5 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				AB94A4CB2873802200521CA5 /* Theme.swift */,
+				AB94A4E2287645C900521CA5 /* ScrumTimer.swift */,
 				AB94A4CD287380AD00521CA5 /* DailyScrum.swift */,
 			);
 			path = Models;
@@ -101,7 +110,10 @@
 				AB94A4CF2873814A00521CA5 /* CardView.swift */,
 				AB94A4D1287382AD00521CA5 /* TrailingIconLabelStyle.swift */,
 				AB94A4BE28737A8E00521CA5 /* MeetingView.swift */,
+				AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */,
+				AB94A4DE2876433F00521CA5 /* MeetingHeaderView.swift */,
 				AB94A4D42873853600521CA5 /* ScrumsView.swift */,
+				AB94A4E02876452100521CA5 /* ScrumProgressViewStyle.swift */,
 				AB94A4D62873D95600521CA5 /* DetailView.swift */,
 				AB94A4D82875038000521CA5 /* DetailEditView.swift */,
 				AB94A4DC28750C3F00521CA5 /* ThemePicker.swift */,
@@ -181,8 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB94A4DD28750C3F00521CA5 /* ThemePicker.swift in Sources */,
+				AB94A4E12876452100521CA5 /* ScrumProgressViewStyle.swift in Sources */,
+				AB94A4E5287647B200521CA5 /* MeetingFooterView.swift in Sources */,
+				AB94A4E3287645C900521CA5 /* ScrumTimer.swift in Sources */,
 				AB94A4CE287380AD00521CA5 /* DailyScrum.swift in Sources */,
 				AB94A4D72873D95600521CA5 /* DetailView.swift in Sources */,
+				AB94A4DF2876433F00521CA5 /* MeetingHeaderView.swift in Sources */,
 				AB94A4D92875038100521CA5 /* DetailEditView.swift in Sources */,
 				AB94A4D2287382AD00521CA5 /* TrailingIconLabelStyle.swift in Sources */,
 				AB94A4BF28737A8E00521CA5 /* MeetingView.swift in Sources */,
