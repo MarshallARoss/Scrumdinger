@@ -20,7 +20,7 @@ struct DetailEditView: View {
                 TextField("Title", text: $data.title)
                
                 HStack {
-                    Slider(value: $data.lengthInMinutes, in: 5...30, step: 1) {
+                    Slider(value: $data.lengthInMinutes, in: 1...30, step: 1) {
                         Text("Length")
                     }
                     .accessibilityValue("\(Int(data.lengthInMinutes)) minutes")

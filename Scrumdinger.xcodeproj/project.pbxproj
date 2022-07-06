@@ -24,6 +24,8 @@
 		AB94A4E12876452100521CA5 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E02876452100521CA5 /* ScrumProgressViewStyle.swift */; };
 		AB94A4E3287645C900521CA5 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E2287645C900521CA5 /* ScrumTimer.swift */; };
 		AB94A4E5287647B200521CA5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */; };
+		AB94A4E828764CAA00521CA5 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */; };
+		AB94A4EB28764CCB00521CA5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB94A4EA28764CCB00521CA5 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		AB94A4E02876452100521CA5 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		AB94A4E2287645C900521CA5 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		AB94A4EA28764CCB00521CA5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				AB94A4CB2873802200521CA5 /* Theme.swift */,
 				AB94A4E2287645C900521CA5 /* ScrumTimer.swift */,
+				AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */,
 				AB94A4CD287380AD00521CA5 /* DailyScrum.swift */,
 			);
 			path = Models;
@@ -109,17 +114,34 @@
 			children = (
 				AB94A4CF2873814A00521CA5 /* CardView.swift */,
 				AB94A4D1287382AD00521CA5 /* TrailingIconLabelStyle.swift */,
-				AB94A4BE28737A8E00521CA5 /* MeetingView.swift */,
-				AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */,
-				AB94A4DE2876433F00521CA5 /* MeetingHeaderView.swift */,
+				AB94A4E628764C6300521CA5 /* MeetingView */,
 				AB94A4D42873853600521CA5 /* ScrumsView.swift */,
 				AB94A4E02876452100521CA5 /* ScrumProgressViewStyle.swift */,
 				AB94A4D62873D95600521CA5 /* DetailView.swift */,
 				AB94A4D82875038000521CA5 /* DetailEditView.swift */,
 				AB94A4DC28750C3F00521CA5 /* ThemePicker.swift */,
+				AB94A4E928764CCB00521CA5 /* Resources */,
 				AB94A4DA28750B8100521CA5 /* ThemeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AB94A4E628764C6300521CA5 /* MeetingView */ = {
+			isa = PBXGroup;
+			children = (
+				AB94A4BE28737A8E00521CA5 /* MeetingView.swift */,
+				AB94A4DE2876433F00521CA5 /* MeetingHeaderView.swift */,
+				AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */,
+			);
+			path = MeetingView;
+			sourceTree = "<group>";
+		};
+		AB94A4E928764CCB00521CA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB94A4EA28764CCB00521CA5 /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB94A4EB28764CCB00521CA5 /* ding.wav in Resources */,
 				AB94A4C428737A9100521CA5 /* Preview Assets.xcassets in Resources */,
 				AB94A4C128737A9100521CA5 /* Assets.xcassets in Resources */,
 			);
@@ -207,6 +230,7 @@
 				AB94A4BD28737A8E00521CA5 /* ScrumdingerApp.swift in Sources */,
 				AB94A4DB28750B8100521CA5 /* ThemeView.swift in Sources */,
 				AB94A4D02873814A00521CA5 /* CardView.swift in Sources */,
+				AB94A4E828764CAA00521CA5 /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
