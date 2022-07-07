@@ -26,6 +26,7 @@
 		AB94A4E5287647B200521CA5 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */; };
 		AB94A4E828764CAA00521CA5 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */; };
 		AB94A4EB28764CCB00521CA5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB94A4EA28764CCB00521CA5 /* ding.wav */; };
+		AB94A4ED2876512C00521CA5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4EC2876512C00521CA5 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		AB94A4E4287647B200521CA5 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		AB94A4EA28764CCB00521CA5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		AB94A4EC2876512C00521CA5 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				AB94A4CB2873802200521CA5 /* Theme.swift */,
+				AB94A4EC2876512C00521CA5 /* History.swift */,
 				AB94A4E2287645C900521CA5 /* ScrumTimer.swift */,
 				AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */,
 				AB94A4CD287380AD00521CA5 /* DailyScrum.swift */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB94A4ED2876512C00521CA5 /* History.swift in Sources */,
 				AB94A4DD28750C3F00521CA5 /* ThemePicker.swift in Sources */,
 				AB94A4E12876452100521CA5 /* ScrumProgressViewStyle.swift in Sources */,
 				AB94A4E5287647B200521CA5 /* MeetingFooterView.swift in Sources */,
