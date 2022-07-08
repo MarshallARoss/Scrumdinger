@@ -12,7 +12,7 @@ struct MeetingTimerView: View {
     let theme: Theme
     
     private var currentSpeaker: String {
-        speakers.first(where: {!$0.isCompleted})?.name ?? "Somebody"
+            speakers.first(where: {!$0.isCompleted})?.name ?? "Somebody"
     }
 
     var body: some View {
@@ -28,12 +28,15 @@ struct MeetingTimerView: View {
                 .accessibilityElement(children: .combine)
                 .foregroundStyle(theme.accentColor)
                 }
+        
             .overlay {
+             
                 ForEach(speakers) { speaker in
+                                    
                     if speaker.isCompleted, let index = speakers.firstIndex(where: { $0.id == speaker.id }) {
-                        SpeakerArc(speakerIndex: index, totalSpeakers: speakers.count)
-                            .rotation(Angle(degrees: -90))
-                            .stroke(theme.mainColor, lineWidth: 12)
+                            SpeakerArc(speakerIndex: index, totalSpeakers: speakers.count)
+                                .rotation(Angle(degrees: -90))
+                                .stroke(theme.mainColor, lineWidth: 12)
                     }
                 }
             }
