@@ -56,7 +56,7 @@ struct ScrumsView: View {
             .accessibilityLabel("New scrum")
         }
         .onChange(of: scenePhase) { phase in
-            is phase == .inactive { saveAction() }
+            if phase == .inactive { saveAction() }
         }
         
     }
