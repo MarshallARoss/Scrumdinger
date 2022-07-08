@@ -28,6 +28,8 @@
 		AB94A4EB28764CCB00521CA5 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB94A4EA28764CCB00521CA5 /* ding.wav */; };
 		AB94A4ED2876512C00521CA5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4EC2876512C00521CA5 /* History.swift */; };
 		AB94A4EF2877703E00521CA5 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4EE2877703E00521CA5 /* ScrumStore.swift */; };
+		AB94A4F12877B3B600521CA5 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4F02877B3B600521CA5 /* ErrorWrapper.swift */; };
+		AB94A4F32877B41F00521CA5 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94A4F22877B41F00521CA5 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		AB94A4EA28764CCB00521CA5 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		AB94A4EC2876512C00521CA5 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		AB94A4EE2877703E00521CA5 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		AB94A4F02877B3B600521CA5 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		AB94A4F22877B41F00521CA5 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				AB94A4E2287645C900521CA5 /* ScrumTimer.swift */,
 				AB94A4E728764CAA00521CA5 /* AVPlayer+Ding.swift */,
 				AB94A4CD287380AD00521CA5 /* DailyScrum.swift */,
+				AB94A4F02877B3B600521CA5 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				AB94A4DC28750C3F00521CA5 /* ThemePicker.swift */,
 				AB94A4DA28750B8100521CA5 /* ThemeView.swift */,
 				AB94A4E928764CCB00521CA5 /* Resources */,
+				AB94A4F22877B41F00521CA5 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,10 +237,12 @@
 				AB94A4D72873D95600521CA5 /* DetailView.swift in Sources */,
 				AB94A4DF2876433F00521CA5 /* MeetingHeaderView.swift in Sources */,
 				AB94A4D92875038100521CA5 /* DetailEditView.swift in Sources */,
+				AB94A4F12877B3B600521CA5 /* ErrorWrapper.swift in Sources */,
 				AB94A4D2287382AD00521CA5 /* TrailingIconLabelStyle.swift in Sources */,
 				AB94A4BF28737A8E00521CA5 /* MeetingView.swift in Sources */,
 				AB94A4D52873853600521CA5 /* ScrumsView.swift in Sources */,
 				AB94A4CC2873802200521CA5 /* Theme.swift in Sources */,
+				AB94A4F32877B41F00521CA5 /* ErrorView.swift in Sources */,
 				AB94A4BD28737A8E00521CA5 /* ScrumdingerApp.swift in Sources */,
 				AB94A4DB28750B8100521CA5 /* ThemeView.swift in Sources */,
 				AB94A4D02873814A00521CA5 /* CardView.swift in Sources */,
