@@ -19,7 +19,7 @@ struct DetailView: View {
                 NavigationLink(destination: MeetingView(scrum: $scrum)) {
                     Label("Start Meeting", systemImage: "timer")
                         .font(.headline)
-                    .foregroundColor(.accentColor)
+                        .foregroundColor(.accentColor)
                 }
                 HStack{
                     Label("Length", systemImage: "clock")
@@ -49,15 +49,17 @@ struct DetailView: View {
                     Label("No Meetings Yet", systemImage: "calendar.badge.exclamationmark")
                 }
                 ForEach(scrum.history) { history in
-                    HStack{
-                        Image(systemName: "calendar")
-                        Text(history.date, style: .date)
+                    NavigationLink(destination: HistoryView(history: history)) {
+                        HStack{
+                            Image(systemName: "calendar")
+                            Text(history.date, style: .date)
+                        }
                     }
                 }
             } header: {
                 Text("History")
             }
-
+            
         }
         .navigationTitle(scrum.title)
         .toolbar(content: {
@@ -92,6 +94,6 @@ struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
             DetailView(scrum: .constant(DailyScrum.sampleData[2]))
-    }
+        }
     }
 }
